@@ -26,7 +26,7 @@ plugins=(
    https://github.com/junegunn/fzf
 
 Update git config to enable credential helper. Add the follwing lines in ~/.zshrc file
-## GIT
+## GIT ###
 GIT_AUTHOR_NAME="gandham-santhosh"
 GIT_COMMITTER_NAME="$GIT_AUTHOR_NAME"
 git config --global user.name "$GIT_AUTHOR_NAME"
