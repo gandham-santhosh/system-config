@@ -1,4 +1,5 @@
 # system-config
+Steps to setup
 1. Install pre-requisites
 sudo apt install git-core zsh
 2. Install Oh-My-Zsh from Robby Russell’s repository
