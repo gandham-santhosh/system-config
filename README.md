@@ -21,3 +21,6 @@ plugins=(
    git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
    git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 6. Change theme by updating ZSH_THEME="agnoster"
+7. Install fzf fuzzy finder plugin
+   https://github.com/junegunn/fzf
+
