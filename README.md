@@ -25,3 +25,15 @@ plugins=(
 7. Install fzf fuzzy finder plugin
    https://github.com/junegunn/fzf
 
+Update git config to enable credential helper. Add the follwing lines in ~/.zshrc file
+## GIT
+GIT_AUTHOR_NAME="gandham-santhosh"
+GIT_COMMITTER_NAME="$GIT_AUTHOR_NAME"
+git config --global user.name "$GIT_AUTHOR_NAME"
+GIT_AUTHOR_EMAIL="santhosh.g@optit.in"
+GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
+git config --global user.email "$GIT_AUTHOR_EMAIL"
+# Set the cache to timeout after 24 hour (setting is in seconds)
+git config --global credential.helper 'cache --timeout=86400'
+
+
